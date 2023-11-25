@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThirdwebProvider
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       activeChain={{// === Required information for connecting to the network === \\
-        chainId: 42161, // Chain ID of the network
+        chainId: 56, // Chain ID of the network
         // Array of RPC URLs to use
         rpc: ["https://bsc-dataseed.bnbchain.org"],
 
